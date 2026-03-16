@@ -1,5 +1,5 @@
 // BEGIN
-export default pick = (data, arrayOfKeys) => {
+export default (data, arrayOfKeys) => {
     if (arrayOfKeys.length === 0) {
         return {};
     }

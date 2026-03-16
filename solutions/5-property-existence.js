@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 // BEGIN
-export default countWords = (text) => {
+export default (text) => {
     const result = {};
     const textAsArray = _.words(text.toLowerCase());
 

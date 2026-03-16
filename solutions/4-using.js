@@ -1,5 +1,5 @@
 // BEGIN
-export default getDomainInfo = (link) => {
+const getDomainInfo = (link) => {
     const result = {};
     const splitedLink1 = link.split('://');
 
@@ -16,4 +16,6 @@ export default getDomainInfo = (link) => {
 
     return result;
 };
+
+export default getDomainInfo;
 // END
